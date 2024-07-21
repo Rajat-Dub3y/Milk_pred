@@ -1,7 +1,7 @@
 import sklearn
 import pickle
 import streamlit as st
-model=pickle.load(open("dtmodel3.pkl",'rb'))
+model=pickle.load(open("milk_model1.pkl",'rb'))
 st.title("Milk Quality")
 ph=st.number_input("ph")
 temp=st.number_input("Temperature")
